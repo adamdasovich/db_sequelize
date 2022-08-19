@@ -91,7 +91,7 @@ exports.update = async (req, res) => {
 		console.log(e)
 	}
 }
-
+// Delete a customer
 exports.delete = async (req, res) => {
 	const { id } = req.params;
 	try {
